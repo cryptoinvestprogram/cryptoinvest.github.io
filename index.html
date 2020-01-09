@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Crypto Invest</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Favicons -->
+        <link rel="icon" href="assets/favicon.ico" >
+        <meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#563d7c">
+    <script src="javas/jquery-3.4.1.min.js"></script>
+    <script src="javas/main.js"></script>
+</head>
+<body>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <h5 class="my-0 mr-md-auto font-weight-normal">
+        <img src="logo.svg" width="150"  alt="" style="padding-bottom: 5px;">
+    </h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+    </nav>
+    <a>Total Invested : 5230.3$ Updated Daily</a>
+</div>
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">10 DAYS PLANS</h1>
+    <p class="lead">Earn 10% on your crypto assets in 10 days.</p>
+    <p class="lead">Make sure you own the sending address, Payments are paid directly to the sending address within 10 days.</p>
+    <p class="lead">Else contact us at <b>cryptoinvestprogram@gmail.com</b> with the transaction and the address to receive payment at.</p>
+</div>
+
+<div class="container">
+    <div class="card-group">
+        <div class="card" style="width: 18rem;">
+            <img id="btc_qr" src="addresses/btc_address.png" class="mx-auto" alt="" height="160" width="160" style="height: 128px; width: 128px;">
+            <div class="card-body" style=" text-align: center">
+                <h5 class="card-title">BTC</h5>
+                <p class="card-text">Minimum Deposit: 0.003</p>
+                <p class="card-text">Fees: 0.00005 deducted from the final amount</p>
+                <button type="button" class="btn btn-primary" id="btc_button">Show Address</button>
+                <p class="card-text" id="btc_address" style="margin-top: 10px">3PPAabcUtfj9WHARm1S16FMrbT1fcdQE3c</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img id="eth_qr" src="addresses/eth_address.png" class="mx-auto" alt="" height="160" width="160" style="height: 128px; width: 128px;">
+            <div class="card-body" style=" text-align: center">
+                <h5 class="card-title">ETH</h5>
+                <p class="card-text">Minimum Deposit: 0.1</p>
+                <p class="card-text">Fees: 0.0002 deducted from the final amount</p>
+                <button type="button" class="btn btn-primary" id="eth_button">Show Address</button>
+                <p class="card-text" id="eth_address" style="margin-top: 10px">0xa900268db18bf5c9db187cf70af03ade438725a5</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img id="ltc_qr" src="addresses/ltc_address.png" class="mx-auto" alt="" height="160" width="160" style="height: 128px; width: 128px;">
+            <div class="card-body" style=" text-align: center">
+                <h5 class="card-title">LTC</h5>
+                <p class="card-text">Minimum Deposit: 0.3</p>
+                <p class="card-text">Fees: 0.0005 deducted from the final amount</p>
+                <button type="button" class="btn btn-primary" id="ltc_button">Show Address</button>
+                <p class="card-text" id="ltc_address" style="margin-top: 10px">Lhv6Bd7TiHTjNPo8ztxz6GAzVvfhP63TQa</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img id="doge_qr" src="addresses/doge_address.png" class="mx-auto" alt="" height="160" width="160" style="height: 128px; width: 128px;">
+            <div class="card-body" style=" text-align: center">
+                <h5 class="card-title">DOGE</h5>
+                <p class="card-text">Minimum Deposit: 1000</p>
+                <p class="card-text">Fees: 1.5 deducted from the final amount</p>
+                <button type="button" class="btn btn-primary" id="doge_button">Show Address</button>
+                <p class="card-text" id="doge_address" style="margin-top: 10px">DEciytGUWXyPJCPtg9aLAYVnysUKiZxPxu</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img id="bch_qr" src="addresses/bch_address.png" class="mx-auto" alt="" height="160" width="160" style="height: 128px; width: 128px;">
+            <div class="card-body" style=" text-align: center">
+                <h5 class="card-title">BCH</h5>
+                <p class="card-text">Minimum Deposit: 0.08</p>
+                <p class="card-text">Fees: 0.00001 deducted from the final amount</p>
+                <button type="button" class="btn btn-primary" id="bch_button">Show Address</button>
+                <p class="card-text" id="bch_address" style="margin-top: 10px">bitcoincash:qr3hjg9qregdxgm8qwmxtxr8z75mp4y8r5r79m4307</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img id="trx_qr" src="addresses/trx_address.png" class="mx-auto" alt="" height="160" width="160" style="height: 128px; width: 128px;">
+            <div class="card-body" style=" text-align: center">
+                <h5 class="card-title">TRX</h5>
+                <p class="card-text">Minimum Deposit: 1000</p>
+                <p class="card-text">Fees: 1 deducted from the final amount</p>
+                <button type="button"  class="btn btn-primary" id="trx_button">Show Address</button>
+                <p class="card-text" id="trx_address" style="margin-top: 10px">TGmvDqLtXecHuu4EhDSiA4PqyhApXNtxbi</p>
+            </div>
+        </div>
+    </div>
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">HAVE A QUESTION?</h1>
+        <p class="lead">Contact us, We usually answer within 1 day.</p>
+        <p class="display-5">cryptoinvestprogram@gmail.com</p>
+    </div>
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="assets/logo.svg" alt="" width="100" height="25">
+                <small class="d-block mb-3 text-muted">&copy; 2020</small>
+            </div>
+            <div class="col-6 col-md">
+
+            </div>
+            <div class="col-6 col-md">
+
+            </div>
+            <div class="col-6 col-md">
+
+            </div>
+            <div class="col-6 col-md">
+                <h5>Live for 10 days</h5>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
